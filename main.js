@@ -8,9 +8,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     // console.log("dark bottom is gepressed");
   });
-});
 
-document.addEventListener("DOMContentLoaded", () => {
   const lightButton = document.querySelector("button#lite");
 
   //console.log("ons is geland", lightButton);
