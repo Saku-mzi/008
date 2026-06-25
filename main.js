@@ -13,11 +13,11 @@ document.addEventListener("DOMContentLoaded", () => {
 document.addEventListener("DOMContentLoaded", () => {
   const lightButton = document.querySelector("button#lite");
 
-  //console.log("ons is geland", darkButton);
+  //console.log("ons is geland", lightButton);
 
   lightButton.addEventListener("click", () => {
     document.querySelector("body").classList.remove("dark-mode");
 
-    // console.log("dark bottom is gepressed");
+    // console.log("light bottom is gepressed");
   });
 });
