@@ -1,0 +1,12 @@
+body {
+  margin: 0;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1.2rem;
+  background-color: rgb(231, 231, 231);
+  color: rgb(26, 26, 26);
+}
+
+body.dark-mode {
+  background-color: rgb(26, 26, 26);
+  color: rgb(231, 231, 231);
+}
