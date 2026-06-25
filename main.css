@@ -5,8 +5,8 @@ body {
   background-color: rgb(231, 231, 231);
   color: rgb(26, 26, 26);
   transition:
-    color 0.6s ease-in-out,
-    background-color 0.6s ease-in-out;
+    color 0.3s ease-in-out,
+    background-color 0.3s ease-in-out;
 }
 main {
   display: flex;
