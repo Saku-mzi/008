@@ -6,7 +6,24 @@ body {
   color: rgb(26, 26, 26);
 }
 
+main button {
+  background: none;
+  border: none;
+}
+
+body button#lite {
+  display: none;
+}
+
 body.dark-mode {
   background-color: rgb(26, 26, 26);
   color: rgb(231, 231, 231);
+}
+
+body.dark-mode button#dark {
+  display: none;
+}
+
+body.dark-mode button#lite {
+  display: inline-block;
 }
