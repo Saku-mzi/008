@@ -30,7 +30,16 @@ main {
 main button {
   background: none;
   border: none;
+  svg {
+    transition: opacity 0.4s ease-in-out;
+  }
+}
+
+main button:hover {
   cursor: pointer;
+  svg {
+    opacity: 0.4;
+  }
 }
 
 body button#lite {
