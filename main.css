@@ -4,6 +4,27 @@ body {
   font-size: 1.2rem;
   background-color: rgb(231, 231, 231);
   color: rgb(26, 26, 26);
+  transition:
+    color 0.6s ease-in-out,
+    background-color 0.6s ease-in-out;
+}
+main {
+  display: flex;
+  flex-direction: column-reverse;
+  height: 100vh;
+
+  h1 {
+    flex-grow: 1;
+    margin: 0;
+    display: grid;
+    place-content: center;
+  }
+
+  nav {
+    padding: 1rem;
+    border-bottom: rgb(141, 141, 141) solid 2px;
+    text-align: right;
+  }
 }
 
 main button {
