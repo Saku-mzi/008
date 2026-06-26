@@ -14,7 +14,6 @@ main {
   height: 100vh;
 
   h1 {
-    background-image: url(https://picsum.photos/seed/yes/500/800);
     flex-grow: 1;
     margin: 0;
     display: grid;
@@ -23,6 +22,7 @@ main {
 
   nav {
     padding: 1rem;
+    border-bottom: rgb(141, 141, 141) solid 2px;
     text-align: right;
   }
 }
@@ -47,7 +47,7 @@ body button#lite {
 }
 
 body.dark-mode {
-  background-color: rgb(50, 78, 57);
+  background-color: rgb(26, 26, 26);
   color: rgb(231, 231, 231);
 }
 

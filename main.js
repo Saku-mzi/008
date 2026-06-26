@@ -15,7 +15,5 @@ document.addEventListener("DOMContentLoaded", () => {
 
   lightButton.addEventListener("click", () => {
     document.querySelector("body").classList.remove("dark-mode");
-
-    // console.log("light bottom is gepressed");
   });
 });
